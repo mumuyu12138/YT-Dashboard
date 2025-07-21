@@ -1,0 +1,16 @@
+/* 缩小左侧导航栏宽度 */
+.md-sidebar--primary {
+  flex: 0 0 170px !important; /* 宽度约 200px */
+  max-width: 170px !important;
+}
+
+/* 主区域填满剩余空间 */
+.md-main__inner {
+  max-width: none !important;
+}
+
+/* 限制内容最大宽度以防太宽 */
+.md-content {
+  max-width: 1200px !important;
+  margin: 0 auto;
+}
